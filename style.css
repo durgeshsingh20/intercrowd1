@@ -1,0 +1,110 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color: #444;
+  line-height: 1.9;
+  background-color: #f3f3f3;
+}
+
+
+
+
+p {
+  color: #666;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10rem;
+  width: 1285px;
+  padding: 0 6rem;
+  z-index: 100;
+  flex-direction: row;
+  background-color: black;
+  color: #f3f3f3
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding: 5px;
+  font-size: 15px;
+}
+
+.list > li {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.searchbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30rem;
+  border-radius: 5px;
+  border: none;
+  padding: 6px;
+}
+
+.para{
+  font-size: 15px;
+}
+
+
+
+
+/* HEADER */
+.header {
+  padding: 0 3rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__title {
+  max-width: 115rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 10%;
+  align-items: center;
+  gap: 1.5rem;
+}
+.header-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+h1 {
+  font-size: 5.5rem;
+  line-height: 1.8;
+}
+
+h4 {
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.header__img {
+  width: 100%;
+}
+
+
+
